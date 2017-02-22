@@ -6,12 +6,14 @@
   </head>
   <body>
     <style>
+    /*bordure rouge*/
     img:hover {
     border: 2px solid red;
    }
    </style>
       <img src="images/image1.jpg" onmouseover="changerSRC(this, 'images/image1_2.jpg');" onmouseout="changerSRC(this, 'images/image1.jpg');" id="image1" />
       <script>
+        //function rollover
             function changerSRC(image, nouveau_src) {
              image.setAttribute('src', nouveau_src);
                }
